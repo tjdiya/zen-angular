@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Shopping Component</h1>
+    <p class="lead">component communication</p>
+    <div class="form-group">
+      <label for="itemName">Please Enter item name</label>
+      <input type="text" class="form-control" name="itemName" id="itemName" #itemName>
+   </div>
+   <div class="form-group">
+     <label for="itemPrice">Please enter the price</label>
+     <input type="text" class="form-control" name-="itemPrice" id="itemPrice" #itemPrice>
+  
+   </div>
+   <button class="btn btn-success mr-2" (click) = "addVeg()">Add Vegetables</button>
+   <button class="btn btn-primary" (click) = "addCosmetics()">Add Cosmetics</button>
+  </div>

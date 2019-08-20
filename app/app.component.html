@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<zen-invoice-input (onVegAdded)="onVegitableAdded($event)" (onCosAdded)="onCosmeticsAdded($event)"></zen-invoice-input>
+<hr>
+<zen-invoice-display *ngFor="let invoiceItem of invoiceItems" [invItem]="invoiceItem"  ></zen-invoice-display>
+
+<router-outlet></router-outlet>

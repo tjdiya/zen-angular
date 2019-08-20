@@ -1,0 +1,7 @@
+<div class="container">
+    <ul class="list-group">
+      <li class="list-group-item text-white" [ngStyle]="{'background-color': invoiceItem.type === 'veg' ? 'green' : 'blue'}">
+        {{invoiceItem.itemName}} {{invoiceItem.price}}
+      </li>
+    </ul>
+  </div>
